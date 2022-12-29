@@ -9,7 +9,7 @@ const data = {
 router
     .route('/')
     .get((req,res)=>{
-        res.send('/connecteen');
+        res.send('/roboway');
     })
     .post((req,res)=>{
         res.json(
