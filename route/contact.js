@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const Contact = require('../model/contactForm');
 
 const data = {
     title: "welcome",
@@ -13,6 +14,15 @@ router
     })
     .post((req,res)=>{
         console.log(req.body);
+        const data = req.body;
+        const contact = new Contact(data);
+        contact.save()
+        .then((data)=>{
+            console.log(data);
+        })
+        .catch((err)=>{
+            console.log(err);
+        })
         res.json(
             data
         );

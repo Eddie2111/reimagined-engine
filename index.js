@@ -9,6 +9,8 @@ const session       = require("express-session");
 const cookieparser  = require("cookie-parser");
 const cors          = require('cors');
 
+// databases
+const mongo         = require('./model/mongo');
 
 
 // environment setups
@@ -25,6 +27,7 @@ app.use(express.urlencoded({extended: true}));
 app.use('/',require('./route/index'));
 app.use("/helmet",require("./route/helmet"));
 app.use("/profile",require("./route/profile"));
+app.use("/contact",require("./route/contact"));
 
 // error handling
 
