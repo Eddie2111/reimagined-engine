@@ -26,7 +26,7 @@ const corsConfig = {
 }
 
 const corsOptions = {
-    origin:"http://localhost:3000",
+    origin:"https://roboway-frontend.vercel.app/",
     credentials: true,
     optionsSuccessStatus: 200, 
     preflightContinue: true,
