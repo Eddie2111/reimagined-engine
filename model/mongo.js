@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb://127.0.0.1:27017/test")
-    .then(()=>console.log('connected to mongoDB'))
+mongoose.connect("mongodb+srv://eddie2111:bmwM3GTR.@cluster0.yql3v.mongodb.net/roboway")
+    .then(()=>console.log('mongo → 200'))
     .catch((err)=>console.log(err));
 
 module.exports = mongoose;
