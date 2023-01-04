@@ -26,7 +26,22 @@ const corsConfig = {
 }
 
 const corsOptions = {
-    origin:"https://roboway-frontend.vercel.app",
+    origin:"https://robowaytech.com",
+    credentials: true,
+    optionsSuccessStatus: 200, 
+    preflightContinue: true,
+    methods: 'GET,POST',
+    allowedHeaders: ['Content-Type','Authorization'],
+    exposedHeaders: ['Content-Type'],
+    maxAge: 3600,
+    accessControlAllowOrigin: true,
+    accessControlAllowCredentials: true,
+    accessControlAllowMethods: 'GET,POST',
+    accessControlAllowHeaders: 'Content-Type,Authorization',
+    accessControlExposeHeaders: 'Content-Type',
+}
+const corsOptionsTest = {
+    origin: "http://localhost:3000",
     credentials: true,
     optionsSuccessStatus: 200, 
     preflightContinue: true,
@@ -55,5 +70,6 @@ module.exports = {
     sendingCookie,
     corsConfig, 
     sessionSettings, 
-    corsOptions
+    corsOptions,
+    corsOptionsTest
 };

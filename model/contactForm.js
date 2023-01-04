@@ -28,7 +28,7 @@ const contactSchema = new mongoose.Schema({
     priceDiscussion: {
         type: String,
         default: "False",
-        enum: ['True', 'False'],
+        enum: ['true', 'false'],
     },
     date: {
         type: Date,

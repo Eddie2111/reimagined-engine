@@ -15,9 +15,9 @@ const mongo         = require('./model/mongo');
 
 // environment setups
 const port = process.env.PORT;
-const {corsOptions, sessionSettings} = require('./data/config');
+const {corsOptionsTest, sessionSettings} = require('./data/config');
 app.use(session(sessionSettings));
-app.use(cors(corsOptions));
+app.use(cors(corsOptionsTest));
 app.use(cookieparser());
 app.use(express.json())
 app.use(express.urlencoded({extended: true}));
