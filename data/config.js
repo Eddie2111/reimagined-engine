@@ -26,7 +26,7 @@ const corsConfig = {
 }
 
 const corsOptions = {
-    origin:"https://robowaytech.com",
+    origin:"https://www.robowaytech.com",
     credentials: true,
     optionsSuccessStatus: 200, 
     preflightContinue: true,
