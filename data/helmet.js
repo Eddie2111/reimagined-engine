@@ -2,7 +2,8 @@ const shield52= {
     name: "Shield 52",
     price: 1000,
     purpose: "Construction worker safety",
-    img: "Assets/img3.jpg",
+    img: "Assets/previewImage3.png",
+    gui: "Assets/52.png",
     features: [
         "Accident detection",
         "Backend GUI for project manager",
@@ -16,7 +17,8 @@ const shield71= {
     name: "Shield 71",
     price: 1000,
     purpose: "Industry worker safety",
-    img: "Assets/img1.jpg",
+    img: "Assets/previewImage2.png",
+    gui: "Assets/71.png",
     features: [
         "Oxygen Level Sensing",
         "Surrounding temperature Sensing",
@@ -29,18 +31,17 @@ const shield71= {
     description: "Shield 71 is designed for industry workers to reduce the risk probablities. Espcially designed for the workers who are working in the high risk areas."
 }
 const safemet= {
-    name: "Safemate 1.0",
+    name: "Safemet 1.0",
     price: 1000,
     purpose: "Bike rider safety",
-    img: "Assets/img2.jpg",
+    img: "Assets/previewImage1.png",
+    gui: "Assets/phone.png",
     features: [
-        "Accident detection",
-        "Backend GUI for project manager",
-        "Hazard alarm",
-        "Health Condition monitoring",
-        "Location addressing",
-        "Suitable solution for Construction site, Factory workers",
-        "!!!! NEED INFORMATION CHECK HERE !!!!"
+        "Automated Accident Detection and notification with GPS Location",
+        "Call Receive and Music Playing through Bluetooth",
+        "Biker's Health Condition  Monitoring",
+        "Daily activity tracking",
+        "Included a Mobile App"
     ],
     description: "A smart helmet device for bike riders. It is designed to ensure riding safety with multimedia features."
 }

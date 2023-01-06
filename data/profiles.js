@@ -11,7 +11,7 @@ const arifinRafi= {
 }
 const sihabShahriar= {
     name: "Sihab Shahriar",
-    designation: "Cheif Technology Officer",
+    designation: "Chief Technology Officer",
     speciality: "UI/UX Developer",
     facebook: "https://www.facebook.com/sihabsahariarsizan",
     github: "https://github.com/SihabSahariar",
