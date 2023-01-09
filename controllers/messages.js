@@ -62,8 +62,7 @@ const wrongCode = {
     route: "/signup"
 }
 
-const loginwrongPassword =
-{
+const loginwrongPassword ={
     status: 400,
     message: "wrong password",
     route: "/login"
